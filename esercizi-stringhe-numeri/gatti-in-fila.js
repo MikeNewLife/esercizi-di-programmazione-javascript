@@ -23,5 +23,7 @@ var gattixfila = 6;
 var nfile = Math.ceil(gatti / gattixfila);
 
 console.log(nfile);
+
 var gattimancanti = gatti % nfile;
+
 console.log(gattimancanti);
