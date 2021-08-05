@@ -11,3 +11,14 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var yeartoday = 2021;
+var birthday = 1990;
+
+età = (yeartoday - birthday);
+
+console.log("età",età);
+
+yearto100 = (100 - età);
+
+console.log("anni mancanti per raggiungere i 100",yearto100);
