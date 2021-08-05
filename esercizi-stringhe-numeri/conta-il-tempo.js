@@ -12,3 +12,25 @@
 
   http://www.imparareaprogrammare.it
 */
+
+
+const aM = 60;
+const aH = 3600;
+
+var totalsec = 12560;
+
+var hour = Math.round(totalsec/aH);
+
+//console.log("ore",hour);
+
+var hoursec = (hour*aH);
+
+var minutes = Math.round((totalsec-hoursec)/60);
+
+//console.log(minutes);
+
+var minutessec = (minutes*aM);
+
+var seconds = (totalsec-(hoursec+minutessec));
+
+console.log(hour+"ore", minutes+"minuti","e",seconds+"secondi");
