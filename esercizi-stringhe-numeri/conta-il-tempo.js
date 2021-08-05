@@ -17,15 +17,15 @@
 const aM = 60;
 const aH = 3600;
 
-var totalsec = 12560;
+var totalsec = 5400;
 
-var hour = Math.round(totalsec/aH);
+var hour = Math.floor(totalsec/aH);
 
 //console.log("ore",hour);
 
 var hoursec = (hour*aH);
 
-var minutes = Math.round((totalsec-hoursec)/60);
+var minutes = Math.floor((totalsec-hoursec)/60);
 
 //console.log(minutes);
 
